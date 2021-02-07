@@ -14,18 +14,15 @@ Require the toolbox:
         
     from os_crypto import crypto_tools
     
-
-## Functions and signatures:
-    
 # crpyto tools
-    
-    # will encrypt a data block
-    def encrypt(data, key, iv, mode=AES.MODE_CBC, padding_size=AES.block_size)
-    
-    
-    # will decrypt a data block
-    def decrypt(data, key, iv, mode=AES.MODE_CBC, padding_size=AES.block_size)
+```python
+# will encrypt a data block
+def encrypt(data, key, iv, mode=AES.MODE_CBC, padding_size=AES.block_size)
 
+
+# will decrypt a data block
+def decrypt(data, key, iv, mode=AES.MODE_CBC, padding_size=AES.block_size)
+```
 
 
 ## Links
